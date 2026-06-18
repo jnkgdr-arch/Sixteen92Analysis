@@ -1,136 +1,130 @@
-diff --git a/index.html b/index.html
-new file mode 100644
-index 0000000000000000000000000000000000000000..ff416e32ce6f30abddd6827b3755ccfccb6170c7
---- /dev/null
-+++ b/index.html
-@@ -0,0 +1,130 @@
-+<!DOCTYPE html>
-+<html lang="en">
-+<head>
-+  <meta charset="UTF-8" />
-+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-+  <title>Sixteen92 Brand Analysis Dashboard</title>
-+  <link rel="preconnect" href="https://fonts.googleapis.com">
-+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-+  <link rel="stylesheet" href="styles.css" />
-+</head>
-+<body>
-+  <div class="ambient ambient-one"></div>
-+  <div class="ambient ambient-two"></div>
-+  <main class="dashboard-shell">
-+    <section class="hero panel glass reveal">
-+      <div class="hero-copy">
-+        <p class="eyebrow">Executive Brand Dashboard</p>
-+        <h1>The Birth of Memories</h1>
-+        <p class="hero-summary">Sixteen92 blends dark folklore, history, literature, and avant-garde fragrance into a niche beauty experience—now mapped as an insight-first dashboard.</p>
-+        <div class="metric-row">
-+          <div class="metric"><strong>2014</strong><span>Founded</span></div>
-+          <div class="metric"><strong>TX</strong><span>Fort Worth</span></div>
-+          <div class="metric"><strong>4</strong><span>Inspiration pillars</span></div>
-+        </div>
-+      </div>
-+      <figure class="hero-art">
-+        <img src="assets/halloween-perfume.jpg" alt="Halloween themed Sixteen92 perfume still life" />
-+        <figcaption>Hero asset: Halloween collection mood</figcaption>
-+      </figure>
-+    </section>
-+
-+    <section class="insight-grid top-grid">
-+      <article class="panel glass reveal delay-1">
-+        <span class="icon">✦</span>
-+        <h2>Brand DNA</h2>
-+        <div class="pill-cloud">
-+          <span>Occult</span><span>Folklore</span><span>Literature</span><span>History</span>
-+        </div>
-+        <p>Small-batch fragrance house founded by Claire Baxter, positioned around dark, memorable scent narratives.</p>
-+      </article>
-+      <article class="panel glass reveal delay-2">
-+        <span class="icon">◐</span>
-+        <h2>Format Map</h2>
-+        <div class="compare-bars">
-+          <div><span>Oil perfume</span><b style="--w:58%">Subtle skin scent</b></div>
-+          <div><span>Alcohol parfum</span><b style="--w:84%">Stronger projection</b></div>
-+        </div>
-+        <p>Oil formats range from 2–6 ml; parfum formats include travel spray through 30 ml.</p>
-+      </article>
-+      <article class="panel glass reveal delay-3 score-card">
-+        <span class="icon">♻</span>
-+        <h2>Audience Fit</h2>
-+        <div class="radial" aria-label="Audience alignment score">92%</div>
-+        <p>Revamping beeswax absolute scents shows responsiveness to consumer values and animal-derived ingredient concerns.</p>
-+      </article>
-+    </section>
-+
-+    <section class="panel glass reveal dashboard-band">
-+      <div>
-+        <p class="eyebrow">Design & Prejudice</p>
-+        <h2>Purchase decisions are multi-sensory</h2>
-+      </div>
-+      <div class="sensory-chart">
-+        <div class="chart-item"><span class="bar fragrance"></span><strong>Fragrance</strong><small>Primary scent driver</small></div>
-+        <div class="chart-item"><span class="bar bottle"></span><strong>Bottle shape</strong><small>Visual differentiation</small></div>
-+        <div class="chart-item"><span class="bar cap"></span><strong>Cap + logo</strong><small>Male attention cue</small></div>
-+        <div class="chart-item"><span class="bar advert"></span><strong>Emotion</strong><small>Ad response cue</small></div>
-+      </div>
-+    </section>
-+
-+    <section class="insight-grid story-grid">
-+      <article class="panel glass reveal delay-1">
-+        <p class="eyebrow">Opportunity</p>
-+        <h2>Much Ado About Nostalgia</h2>
-+        <div class="poster-card">
-+          <img src="assets/opera-perfume.jpg" alt="Opera inspired perfume concept" />
-+          <div><strong>Musical Theater Line</strong><span>Phantom-inspired literary and historical nostalgia can extend the existing brand world.</span></div>
-+        </div>
-+      </article>
-+      <article class="panel glass reveal delay-2 logistics-card">
-+        <p class="eyebrow">Premium Rush</p>
-+        <h2>Shipping is a satisfaction lever</h2>
-+        <div class="timeline">
-+          <span>Order</span><span>5–15 business days</span><span>Delivery</span><span>Review</span>
-+        </div>
-+        <p>Limited delivery speeds and email-based holiday requests add friction when speed and clarity drive customer confidence.</p>
-+      </article>
-+    </section>
-+
-+    <section class="panel glass reveal theory-study">
-+      <div>
-+        <p class="eyebrow">The Theory of Everything</p>
-+        <h2>Delivery performance changes review momentum</h2>
-+        <p>Ravula’s study connects parcel timeliness with online review ratings: early arrivals tend to lift ratings, while late deliveries lower ratings and can amplify negative word-of-mouth.</p>
-+      </div>
-+      <div class="review-flow" aria-label="Delivery review impact flow">
-+        <span>Early parcel</span>
-+        <strong>Higher review</strong>
-+        <span>Late parcel</span>
-+        <strong>Lower review</strong>
-+      </div>
-+    </section>
-+
-+    <section class="recommendations reveal">
-+      <div class="section-heading">
-+        <p class="eyebrow">Recommendations</p>
-+        <h2>Action-based company steps</h2>
-+      </div>
-+      <div class="action-grid">
-+        <article class="action glass"><span>01</span><h3>Nostalgia capsule</h3><p>Create musical and theater-inspired scents tied to literature and history.</p></article>
-+        <article class="action glass"><span>02</span><h3>Bottle variation</h3><p>Introduce distinct shapes and symbolic ads to trigger visual-emotional interest.</p></article>
-+        <article class="action glass"><span>03</span><h3>Shipping tiers</h3><p>Add standard, 2nd business day, 3rd business day, and holiday filters.</p></article>
-+        <article class="action glass"><span>04</span><h3>Review loop</h3><p>Add homepage scent reviews and dedicate support to social feedback.</p></article>
-+      </div>
-+    </section>
-+
-+    <section class="panel glass references reveal">
-+      <h2>References</h2>
-+      <ul>
-+        <li>Cuesta, Paida, & Buele (2019): olfactory and visual stimuli in perfume-purchase decisions.</li>
-+        <li>Marchegiani & Phau (2011): historical nostalgia and purchase intention.</li>
-+        <li>Placek (2023): U.S. consumer shipping experience and satisfaction data.</li>
-+        <li>Ravula (2022): delivery performance, temporal distance, and online review ratings.</li>
-+        <li>Sixteen92 official brand website.</li>
-+      </ul>
-+    </section>
-+  </main>
-+</body>
-+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sixteen92 Brand Analysis Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <main class="dashboard-shell">
+    <section class="hero panel glass reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">Executive Brand Dashboard</p>
+        <h1>The Birth of Memories</h1>
+        <p class="hero-summary">Sixteen92 blends dark folklore, history, literature, and avant-garde fragrance into a niche beauty experience—now mapped as an insight-first dashboard.</p>
+        <div class="metric-row">
+          <div class="metric"><strong>2014</strong><span>Founded</span></div>
+          <div class="metric"><strong>TX</strong><span>Fort Worth</span></div>
+          <div class="metric"><strong>4</strong><span>Inspiration pillars</span></div>
+        </div>
+      </div>
+      <figure class="hero-art">
+        <img src="assets/halloween-perfume.jpg" alt="Halloween themed Sixteen92 perfume still life" />
+        <figcaption>Hero asset: Halloween collection mood</figcaption>
+      </figure>
+    </section>
+
+    <section class="insight-grid top-grid">
+      <article class="panel glass reveal delay-1">
+        <span class="icon">✦</span>
+        <h2>Brand DNA</h2>
+        <div class="pill-cloud">
+          <span>Occult</span><span>Folklore</span><span>Literature</span><span>History</span>
+        </div>
+        <p>Small-batch fragrance house founded by Claire Baxter, positioned around dark, memorable scent narratives.</p>
+      </article>
+      <article class="panel glass reveal delay-2">
+        <span class="icon">◐</span>
+        <h2>Format Map</h2>
+        <div class="compare-bars">
+          <div><span>Oil perfume</span><b style="--w:58%">Subtle skin scent</b></div>
+          <div><span>Alcohol parfum</span><b style="--w:84%">Stronger projection</b></div>
+        </div>
+        <p>Oil formats range from 2–6 ml; parfum formats include travel spray through 30 ml.</p>
+      </article>
+      <article class="panel glass reveal delay-3 score-card">
+        <span class="icon">♻</span>
+        <h2>Audience Fit</h2>
+        <div class="radial" aria-label="Audience alignment score">92%</div>
+        <p>Revamping beeswax absolute scents shows responsiveness to consumer values and animal-derived ingredient concerns.</p>
+      </article>
+    </section>
+
+    <section class="panel glass reveal dashboard-band">
+      <div>
+        <p class="eyebrow">Design & Prejudice</p>
+        <h2>Purchase decisions are multi-sensory</h2>
+      </div>
+      <div class="sensory-chart">
+        <div class="chart-item"><span class="bar fragrance"></span><strong>Fragrance</strong><small>Primary scent driver</small></div>
+        <div class="chart-item"><span class="bar bottle"></span><strong>Bottle shape</strong><small>Visual differentiation</small></div>
+        <div class="chart-item"><span class="bar cap"></span><strong>Cap  logo</strong><small>Male attention cue</small></div>
+        <div class="chart-item"><span class="bar advert"></span><strong>Emotion</strong><small>Ad response cue</small></div>
+      </div>
+    </section>
+
+    <section class="insight-grid story-grid">
+      <article class="panel glass reveal delay-1">
+        <p class="eyebrow">Opportunity</p>
+        <h2>Much Ado About Nostalgia</h2>
+        <div class="poster-card">
+          <img src="assets/opera-perfume.jpg" alt="Opera inspired perfume concept" />
+          <div><strong>Musical Theater Line</strong><span>Phantom-inspired literary and historical nostalgia can extend the existing brand world.</span></div>
+        </div>
+      </article>
+      <article class="panel glass reveal delay-2 logistics-card">
+        <p class="eyebrow">Premium Rush</p>
+        <h2>Shipping is a satisfaction lever</h2>
+        <div class="timeline">
+          <span>Order</span><span>5–15 business days</span><span>Delivery</span><span>Review</span>
+        </div>
+        <p>Limited delivery speeds and email-based holiday requests add friction when speed and clarity drive customer confidence.</p>
+      </article>
+    </section>
+
+    <section class="panel glass reveal theory-study">
+      <div>
+        <p class="eyebrow">The Theory of Everything</p>
+        <h2>Delivery performance changes review momentum</h2>
+        <p>Ravula’s study connects parcel timeliness with online review ratings: early arrivals tend to lift ratings, while late deliveries lower ratings and can amplify negative word-of-mouth.</p>
+      </div>
+      <div class="review-flow" aria-label="Delivery review impact flow">
+        <span>Early parcel</span>
+        <strong>Higher review</strong>
+        <span>Late parcel</span>
+        <strong>Lower review</strong>
+      </div>
+    </section>
+
+    <section class="recommendations reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Recommendations</p>
+        <h2>Action-based company steps</h2>
+      </div>
+      <div class="action-grid">
+        <article class="action glass"><span>01</span><h3>Nostalgia capsule</h3><p>Create musical and theater-inspired scents tied to literature and history.</p></article>
+        <article class="action glass"><span>02</span><h3>Bottle variation</h3><p>Introduce distinct shapes and symbolic ads to trigger visual-emotional interest.</p></article>
+        <article class="action glass"><span>03</span><h3>Shipping tiers</h3><p>Add standard, 2nd business day, 3rd business day, and holiday filters.</p></article>
+        <article class="action glass"><span>04</span><h3>Review loop</h3><p>Add homepage scent reviews and dedicate support to social feedback.</p></article>
+      </div>
+    </section>
+
+    <section class="panel glass references reveal">
+      <h2>References</h2>
+      <ul>
+        <li>Cuesta, Paida, & Buele (2019): olfactory and visual stimuli in perfume-purchase decisions.</li>
+        <li>Marchegiani & Phau (2011): historical nostalgia and purchase intention.</li>
+        <li>Placek (2023): U.S. consumer shipping experience and satisfaction data.</li>
+        <li>Ravula (2022): delivery performance, temporal distance, and online review ratings.</li>
+        <li>Sixteen92 official brand website.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
